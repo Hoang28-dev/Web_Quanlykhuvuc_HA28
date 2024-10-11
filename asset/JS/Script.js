@@ -96,12 +96,12 @@ class khuvuc {
       : [];
     // falsy
     // lay thong tin tu localstorage ra trả về các mảng
-    // console.log(students.length);
-    if (inf.length === 0) {
-      document.getElementById("table-field").style.display = "none";
-      return false;
-    }
-    document.getElementById("table-field").style.display = "block";
+    // // console.log(students.length);
+    // if (inf.length === 0) {
+    //   document.getElementById("table-field").style.display = "none";
+    //   return false;
+    // }
+    // document.getElementById("table-field").style.display = "block";
 
     let tableContent = `<tr>
             <td>#</td>
